@@ -1,0 +1,6 @@
+[submodule "DB_Project"]
+	path = DB_Project
+	url = git@github.com:Borvornsak/DB_Project.git
+[submodule "DB_Project_Server"]
+	path = DB_Project_Server
+	url = git@github.com:pangpond510/DB_Project_Server.git

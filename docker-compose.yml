@@ -1,0 +1,24 @@
+version: "3"
+services:
+  db-mysql:
+    build: DB_Project_ddl/.
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-password
+    tty: true
+    restart: always
+    ports:
+      - "3307:3306"
+  db-backend:
+    build: DB_Project_Server/.
+    ports: 
+      - "7555:7555"
+    depends_on:
+      - db-mysql
+    restart: always
+  db-frontend:
+    build: DB_Project/.
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db-backend
+    restart: always
