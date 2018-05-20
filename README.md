@@ -20,5 +20,5 @@ $ sudo docker-compose build
 ```
 To start containers:
 ```
-$ sudo docker-compose up
+$ sudo docker-compose up --force-recreate
 ```

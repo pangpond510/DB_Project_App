@@ -1,7 +1,7 @@
 version: "3"
 services:
   db-mysql:
-    build: DB_Project_ddl/.
+    build: DB_Project_Database/.
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-password
     tty: true
