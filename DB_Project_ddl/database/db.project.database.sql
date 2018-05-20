@@ -1,2 +1,0 @@
-DROP DATABASE IF EXISTS `db_RegChula`;
-CREATE DATABASE `db_RegChula`;

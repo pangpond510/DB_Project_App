@@ -4,3 +4,6 @@
 [submodule "DB_Project_Server"]
 	path = DB_Project_Server
 	url = git@github.com:pangpond510/DB_Project_Server.git
+[submodule "DB_Project_Database"]
+	path = DB_Project_Database
+	url = git@github.com:pangpond510/DB_Project_Database.git
