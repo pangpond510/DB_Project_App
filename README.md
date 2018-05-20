@@ -6,7 +6,6 @@ This repository is initiated for project of DB JAM team which is a part of 21104
 ## Prerequisites
 1. docker-ce
 2. docker-compose
-3. node
 
 ## Getting Started
 
