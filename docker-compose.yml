@@ -7,7 +7,7 @@ services:
     tty: true
     restart: always
     ports:
-      - "3307:3306"
+      - "3306:3306"
   db-backend:
     build: DB_Project_Server/.
     ports: 

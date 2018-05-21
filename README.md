@@ -21,7 +21,7 @@ This is the submodules of this repository
 2. DB_Project_Server: <https://github.com/pangpond510/DB_Project_Server>
 3. DB_Project_Database: <https://github.com/pangpond510/DB_Project_Database>
 
-### Start Docker
+### Start with docker-compose
 First, you have to make sure that docker is stiil running.
 
 To build images:
@@ -32,3 +32,5 @@ To start containers:
 ```
 $ sudo docker-compose up --force-recreate
 ```
+### Start each component seperately
+You can see the instructions in Getting Started part in README.md of each submodules
