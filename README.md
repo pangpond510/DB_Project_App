@@ -34,3 +34,12 @@ $ sudo docker-compose up --force-recreate
 ```
 ### Start each component seperately
 You can see the instructions in Getting Started part in README.md of each submodules
+
+## Manual
+You can access our system by using this demo account
+
+| Account	| Username	| Password	|
+|:--------|:-----------	|:-----------	|
+| Stuent 	|6030000121	|s6001			|
+| Teacher |2110000001	|t1				|
+| Officer |2110010001	|o1				|
